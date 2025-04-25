@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------
+# Custom CSS
+--------------------------------------------------------------*/
+
+/**
+* Navbar
+*/
+
+.navbar .quote-btn {
+    background: $primary;
+    color: #fff;
+    border: 2px solid transparent;
+    padding: 3px 13px 5px 13px;
+}
+
+.navbar .quote-btn:hover {
+    background: transparent;
+    color: $primary;
+    border: 2px solid $primary;
+    padding: 3px 13px 5px 13px;
+}
