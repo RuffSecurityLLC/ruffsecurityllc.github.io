@@ -250,4 +250,14 @@
     })
   });
 
+  /**
+   * Dynamically set the current year in the footer
+   */
+  window.addEventListener('load', () => {
+    const yearEl = select('#copyright-year');
+    if (yearEl) {
+      yearEl.textContent = "2023 - " + new Date().getFullYear();
+    }
+  });
+
 })()
